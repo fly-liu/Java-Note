@@ -1,0 +1,27 @@
+Java IDE工具 Eclipse相关：
+Package Explorer： 包资源管理器视图
+  src: 源，所有Java源文件存放在这个目录下
+  JRE System Library: Library（资源包），Java运行环境资源包，Java类库资源
+
+Navigator: 导航器视图
+  bin: 字节码目录
+  src: Java资源目录
+  
+Java反编译工具：Jad,FrontEndPlus
+Jad反编译步骤： 找到.class文件 > DOS界面 > 找到Jad安装目录 > jad-s java *.class(字节码文件名)
+FrontEndPlus: 可视化反编译应用，菜单命令：File > Decompiler class File 
+
+变量：一块内存空间的表示，多个变量（内存空间）相互独立
+变量名也叫标识符
+
+变量命名规则：变量名要以字母，下划线，美元符号，人民币符号开头，驼峰命名
+             有意义
+             不能使用关键字，如public，class
+
+数据类型：
+  整型: byte,int,short,long
+  浮点型: double,float
+  布尔型: boolean
+  单个字符: char
+  字符串：String
+  String 不是基本数据类型，是引用数据类型，是Java提供的一个类
